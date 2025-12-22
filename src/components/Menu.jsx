@@ -1,14 +1,16 @@
 import './Menu.scss'
 import { NavLink, useLocation } from 'react-router-dom'
 import pluma from '../assets/pluma.png'
+import { useTranslation } from 'react-i18next';
 
 export const Menu = () => {
     const location = useLocation();
+    const { t } = useTranslation()
 
     const menuItems = [
-        { path: '/', label: 'Inicio' },
-        { path: '/projects', label: 'Proyectos' },
-        { path: '/about', label: 'Sobre mi' },
+        { path: '/', label: t('home') },
+        { path: '/projects', label: t('projects') },
+        { path: '/about', label: t('about') },
       ];
 
     return (

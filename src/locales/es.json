@@ -1,0 +1,13 @@
+{
+    "welcome": "Bienvenid@ seas a este humilde rincón digital, morada de mis sueños y empeños. Soy, pues, un desarrollador web, cual hidalgo errante, dedicado a forjar espacios digitales que desafíen las fronteras de lo común y revistan la web de nuevas maravillas. Mi anhelo es revolucionar la manera en que las almas navegan este vasto océano de información. Te invito, noble visitante, a recorrer mi obra y conocer más de este ingenioso oficio al que entrego mi pasión. ¡Que tu estancia sea amena!",
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mi",
+    "airTicketDescription": "Este proyecto consiste en una página web para la compra de tiquetes de avión. Ofrece opciones tanto de viaje sencillo (solo ida) como de viaje redondo (ida y regreso). Además, permite seleccionar el tipo de equipaje, lo que ajusta automáticamente la tarifa, y elegir el asiento según la disponibilidad.",
+    "shelfScapeDescription": "Este proyecto nació como una necesidad personal. Sin embargo, fue uno de los que más satisfacción me brindó durante su desarrollo, ya que fue el primer proyecto en el que implementé conocimientos de backend. Surgió a raíz de mi interés por diversos temas y la dificultad de mantener la información almacenada de forma ordenada y fácil de consultar.",
+    "worldExplorerDescription": "Es una especie de diccionario de países que permite consultar datos básicos de cada nación, como los idiomas, la moneda y la bandera. La barra de búsqueda incluye un debounce para optimizar la experiencia del usuario. Además, muestra una imagen representativa de cada país obtenida de la API de imágenes de Unsplash.",
+    "technologies": "Tecnologías",
+    "summary": "Soy un desarrollador web dedicado a la experimentación de espacios digitales que establezcan nuevas formas en las que los usuarios interactúan con la interfaz. Obtuve mi certificación en SENA (Servicio Nacional de Aprendizaje) y participé del Bootcamp de MAKAIA en el cuál tuve la oportunidad de realizar diferentes proyectos. Actualmente estoy realizando un master de Desarrollo con IA para potenciar mis capacidades sin perder calidad y seguridad en el código.",
+    "video": "https://www.youtube.com/embed/XFRduHvJtPY?si=CWrYUEAvWF_sENT5",
+    "contact": "contáctame"
+}

@@ -1,8 +1,10 @@
 import { Carousel } from './Carousel'
 import './ProjectDetails.scss'
 import PropTypes from 'prop-types';
+import { useTranslation } from 'react-i18next';
 
 export const ProjectDetails = ({ project }) => {
+    const { t } = useTranslation()
 
    
     return (
@@ -13,7 +15,7 @@ export const ProjectDetails = ({ project }) => {
                 <p className="projectDetails__name">{project.name}</p>
                 <p className="projectDetails__description">{project.description}</p>
                 <div className="projectDetails__tecnologies">
-                    <p className="projectDetails__tecnologies--label">Tecnologías:</p>
+                    <p className="projectDetails__tecnologies--label">{t('technologies')}:</p>
                     <p className="projectDetails__tecnologies--content">{project.tecnologies}</p>
                 </div>
                 <div className="projectDetails__github">

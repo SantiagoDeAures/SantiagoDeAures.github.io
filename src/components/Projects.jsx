@@ -5,8 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from 'react';
 import { ProjectDetails } from './ProjectDetails';
-
-// Importa las imágenes directamente
+import { useTranslation } from 'react-i18next';
 import airTicket1 from '../assets/air-ticket1.png';
 import airTicket2 from '../assets/air-ticket2.png';
 import airTicket3 from '../assets/air-ticket3.png';
@@ -18,6 +17,7 @@ import worldExplorer2 from '../assets/world-explorer2.png';
 
 export const Projects = () => {
     const [modalState, setModalState] = useState(false);
+    const { t } = useTranslation()
 
     const projects = [
         {
@@ -28,9 +28,9 @@ export const Projects = () => {
                 { id: 2, image: airTicket2 },
                 { id: 3, image: airTicket3 },
             ],
-            description: "Este proyecto consiste en una página web para la compra de tiquetes de avión. Ofrece opciones tanto de viaje sencillo (solo ida) como de viaje redondo (ida y regreso). Además, permite seleccionar el tipo de equipaje, lo que ajusta automáticamente la tarifa, y elegir el asiento según la disponibilidad.",
+            description: t('airTicketDescription'),
             tecnologies: "React, styled components, local storage",
-            gitHub: "https://github.com/startcroft/Air-ticket/tree/main",
+            gitHub: "https://github.com/SantiagoDeAures/Air-ticket",
         },
         {
             id: 2,
@@ -40,9 +40,9 @@ export const Projects = () => {
                 { id: 2, image: shelfScape2 },
                 { id: 3, image: shelfScape3 },
             ],
-            description: "Este proyecto nació como una necesidad personal. Sin embargo, fue uno de los que más satisfacción me brindó durante su desarrollo, ya que fue el primer proyecto en el que implementé conocimientos de backend. Surgió a raíz de mi interés por diversos temas y la dificultad de mantener la información almacenada de forma ordenada y fácil de consultar.",
+            description: t('shelfScapeDescription'),
             tecnologies: "TypeScript, React, Sass, NodeJs, MongoDB, Mongoose, Vitest",
-            gitHub: "https://github.com/startcroft/ShelfScape",
+            gitHub: "https://github.com/SantiagoDeAures/ShelfScape",
         },
         {
             id: 3,
@@ -51,9 +51,9 @@ export const Projects = () => {
                 { id: 1, image: worldExplorer1 },
                 { id: 2, image: worldExplorer2 },
             ],
-            description: "Es una especie de diccionario de países que permite consultar datos básicos de cada nación, como los idiomas, la moneda y la bandera. La barra de búsqueda incluye un debounce para optimizar la experiencia del usuario. Además, muestra una imagen representativa de cada país obtenida de la API de imágenes de Unsplash.",
+            description: t('worldExplorerDescription'),
             tecnologies: "React",
-            gitHub: "https://github.com/startcroft/World-explorer/tree/main",
+            gitHub: "https://github.com/SantiagoDeAures/World-explorer",
         },
     ];
 

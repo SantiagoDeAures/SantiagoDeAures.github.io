@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Home } from './components/Home.jsx'
 import { Projects } from './components/Projects.jsx'
 import { About } from './components/About.jsx'
+import './i18n';
 
 const router = createBrowserRouter([
   {

@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Quintessential", serif;
-  
+
 }
 
 .Home {
@@ -93,6 +93,25 @@ body {
 
 
 
+  }
+}
+
+.language-switcher {
+  margin-top: 20px;
+
+  button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #640d0d;
+    color: #ffbd59;
+    cursor: pointer;
+    font-family: "Quintessential", serif;
+    font-weight: 600;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.15)
+    }
   }
 }
 

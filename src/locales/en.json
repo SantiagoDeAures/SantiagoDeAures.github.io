@@ -1,0 +1,13 @@
+{
+    "welcome": "Welcome to this humble digital corner, the dwelling of my dreams and efforts. I am a web developer, like a wandering knight, dedicated to forging digital spaces that challenge the boundaries of the ordinary and adorn the web with new wonders. My desire is to revolutionize the way souls navigate this vast ocean of information. I invite you, noble visitor, to explore my work and learn more about this ingenious craft to which I dedicate my passion. May your stay be pleasant!",
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About me",
+    "airTicketDescription": "This project is a web application for purchasing flight tickets, offering both one-way and round-trip options. It allows users to select their baggage type—which automatically adjusts the fare—and choose their seats based on real-time availability.",
+    "shelfScapeDescription": "Born out of a personal need, this project was one of the most rewarding to develop as it marked my first experience implementing backend logic. It was created to solve the challenge of organizing and easily accessing information on the diverse topics that interest me.",
+    "worldExplorerDescription": "A country directory that provides key information on every nation, including languages, currency, and flags. The search bar features a debounce to optimize the user experience, and it displays representative images for each country retrieved via the Unsplash API.",
+    "technologies": "Technologies",
+    "summary": "I am a web developer dedicated to experimenting with digital spaces that redefine how users interact with interfaces. I earned my certification from SENA (National Learning Service) and completed the MAKAIA Bootcamp, where I had the opportunity to build a diverse range of projects. I am currently pursuing a Master’s in AI Development to enhance my capabilities while maintaining a focus on code quality and security.",
+    "video": "https://www.youtube.com/embed/2UuQCVJlsiI?si=w1i0Xr2gnOMLvDrT",
+    "contact": "contact me"
+}

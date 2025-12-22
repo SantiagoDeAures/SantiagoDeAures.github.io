@@ -1,12 +1,12 @@
 import { Menu } from './Menu';
 import './About.scss';
-
-// Importa las imágenes directamente
+import { useTranslation } from 'react-i18next';
 import linkedinIcon from '../assets/linkedin.png';
 import whatsappIcon from '../assets/whatsapp.png';
 import emailIcon from '../assets/email.png';
 
 export const About = () => {
+    const { t } = useTranslation()
     return (
         <>
             <div className="about">
@@ -15,16 +15,16 @@ export const About = () => {
                         className="presentation__video"
                         width="400"
                         height="225"
-                        src="https://www.youtube.com/embed/XFRduHvJtPY?si=CWrYUEAvWF_sENT5"
+                        src={t('video')}
                         title="Presentación"
                     ></iframe>
 
                     <div className="presentation__description">
                         <p className="presentation__description--p">
-                            Soy un desarrollador web dedicado a la experimentación de espacios digitales que establezcan nuevas formas en las que los usuarios interactúan con la interfaz. Obtuve mi certificación en SENA (Servicio Nacional de Aprendizaje) y participé del Bootcamp de MAKAIA en el cuál tuve la oportunidad de realizar diferentes proyectos.
+                            {t('summary')}
                         </p>
                         <div className="presentation__description--contact">
-                            <p>Contáctame:</p>
+                            <p>{t('contact')}:</p>
                             <a
                                 href="https://www.linkedin.com/in/santiago-gomez-pavas"
                                 target="_blank"
