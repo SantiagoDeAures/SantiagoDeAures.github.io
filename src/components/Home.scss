@@ -121,6 +121,7 @@ body {
 
     &--section {
       width: 100%;
+      margin-top: 20%;
 
       .Home__profile {
         width: 100%;
@@ -166,6 +167,7 @@ body {
       .Home__frame {
         width: 21.875rem;
         transform: translate(-50%, 82%);
+        display: none;
       }
     }
 
@@ -177,6 +179,10 @@ body {
       width: 18.75rem;
     }
 
+  }
+
+  .language-switcher {
+    margin-top: -15%;
   }
 
 }
