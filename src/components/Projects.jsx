@@ -6,6 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from 'react';
 import { ProjectDetails } from './ProjectDetails';
 import { useTranslation } from 'react-i18next';
+import Legatvm1 from '../assets/LEGATVM1.JPG'
+import Legatvm2 from '../assets/LEGATVM2.JPG'
+import Legatvm3 from '../assets/LEGATVM3.JPG'
 import airTicket1 from '../assets/air-ticket1.png';
 import airTicket2 from '../assets/air-ticket2.png';
 import airTicket3 from '../assets/air-ticket3.png';
@@ -21,7 +24,19 @@ export const Projects = () => {
 
     const projects = [
         {
-            id: 1,
+             id: 1,
+            name: "LEGATVM",
+            images: [
+                { id: 1, image: Legatvm1 },
+                { id: 2, image: Legatvm2 },
+                { id: 3, image: Legatvm3 },
+            ],
+            description: t('legatvmDescription'),
+            tecnologies: "TypeScript, React, Node.js, Express.js, PostgreSQL, Vitest",
+            gitHub: "https://github.com/SantiagoDeAures/LEGATVM",
+        },
+        {
+            id: 2,
             name: "Air Ticket",
             images: [
                 { id: 1, image: airTicket1 },
@@ -33,7 +48,7 @@ export const Projects = () => {
             gitHub: "https://github.com/SantiagoDeAures/Air-ticket",
         },
         {
-            id: 2,
+            id: 3,
             name: "ShelfScape",
             images: [
                 { id: 1, image: shelfScape1 },
@@ -45,7 +60,7 @@ export const Projects = () => {
             gitHub: "https://github.com/SantiagoDeAures/ShelfScape",
         },
         {
-            id: 3,
+            id: 4,
             name: "World Explorer",
             images: [
                 { id: 1, image: worldExplorer1 },
